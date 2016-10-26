@@ -1,6 +1,6 @@
 # i3 layout viewer
 
-![example layout](./examples/layout.svg)
+![example layout](https://cdn.rawgit.com/cbenz/i3-layout-viewer/master/examples/layout.svg)
 
 The [i3](http://i3wm.org/) allows to [save the layout](http://i3wm.org/docs/layout-saving.html) in a JSON file.
 
