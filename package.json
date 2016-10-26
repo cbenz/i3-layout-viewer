@@ -1,5 +1,5 @@
 {
-  "name": "i3-layout-tree-to-jgf",
+  "name": "i3-layout-viewer",
   "version": "0.0.1",
   "description": " Visualize the layout tree of a workspace in i3 window manager",
   "bugs": {
