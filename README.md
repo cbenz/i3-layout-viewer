@@ -12,4 +12,10 @@ So the full chain is:
 i3-save-tree | i3-layout-to-dot | xdot -
 ```
 
+You can even add this line to your `~/.config/i3/config` file:
+
+```
+bindsym $mod+l exec i3-save-tree | i3-layout-to-dot | xdot -
+```
+
 This tool was inspired by [this video](https://www.youtube.com/watch?v=AWA8Pl57UBY).
