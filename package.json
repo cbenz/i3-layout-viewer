@@ -1,0 +1,13 @@
+{
+  "name": "i3-layout-tree-to-jgf",
+  "version": "0.0.0",
+  "description": "Convert i3 layout JSON tree to JSON Graph Format",
+  "main": "src/cli.js",
+  "bin": "src/cli.js",
+  "scripts": { },
+  "author": "Christophe Benz",
+  "license": "GPLv3+",
+  "dependencies": {
+    "read-file-stdin": "^0.2.1"
+  }
+}

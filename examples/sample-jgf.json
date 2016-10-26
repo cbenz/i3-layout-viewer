@@ -1,0 +1,185 @@
+{
+  "graph": {
+    "directed": true,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "splith",
+        "metadata": {
+          "border": "normal",
+          "floating": "auto_off",
+          "layout": "splith",
+          "percent": 1,
+          "type": "con"
+        }
+      },
+      {
+        "id": 1,
+        "label": "tabbed",
+        "metadata": {
+          "border": "normal",
+          "floating": "auto_off",
+          "layout": "tabbed",
+          "percent": 1,
+          "type": "con"
+        }
+      },
+      {
+        "id": 2,
+        "label": "Inbox - christophe.benz@data.gouv.fr - Icedove Mail/News",
+        "metadata": {
+          "border": "normal",
+          "current_border_width": 6,
+          "floating": "auto_off",
+          "geometry": {
+            "height": 1718,
+            "width": 3190,
+            "x": 0,
+            "y": 0
+          },
+          "name": "Inbox - christophe.benz@data.gouv.fr - Icedove Mail/News",
+          "percent": 0.166666666666667,
+          "swallows": [
+            {}
+          ],
+          "type": "con"
+        }
+      },
+      {
+        "id": 3,
+        "label": "i3-save-tree  /home/cbenz/Dev/i3-layout-tree-to-jgf",
+        "metadata": {
+          "border": "normal",
+          "current_border_width": 6,
+          "floating": "user_off",
+          "geometry": {
+            "height": 338,
+            "width": 574,
+            "x": 0,
+            "y": 0
+          },
+          "name": "i3-save-tree  /home/cbenz/Dev/i3-layout-tree-to-jgf",
+          "percent": 0.166666666666667,
+          "swallows": [
+            {}
+          ],
+          "type": "con"
+        }
+      },
+      {
+        "id": 4,
+        "label": "sample-i3-layout.json - i3-layout-tree-to-jgf - Visual Studio Code",
+        "metadata": {
+          "border": "normal",
+          "current_border_width": 6,
+          "floating": "auto_off",
+          "geometry": {
+            "height": 1536,
+            "width": 2048,
+            "x": 576,
+            "y": 132
+          },
+          "name": "sample-i3-layout.json - i3-layout-tree-to-jgf - Visual Studio Code",
+          "percent": 0.166666666666667,
+          "swallows": [
+            {}
+          ],
+          "type": "con"
+        }
+      },
+      {
+        "id": 5,
+        "label": "i3: i3 User’s Guide - Mozilla Firefox",
+        "metadata": {
+          "border": "none",
+          "current_border_width": 0,
+          "floating": "user_off",
+          "geometry": {
+            "height": 1694,
+            "width": 3188,
+            "x": 0,
+            "y": 0
+          },
+          "name": "i3: i3 User’s Guide - Mozilla Firefox",
+          "percent": 0.166666666666667,
+          "swallows": [
+            {}
+          ],
+          "type": "con"
+        }
+      },
+      {
+        "id": 6,
+        "label": "jsongraph/jgf-dot: Convert a json graph into a dot file for use with Graphviz and other visualizers - Mozilla Firefox",
+        "metadata": {
+          "border": "normal",
+          "current_border_width": 6,
+          "floating": "auto_off",
+          "geometry": {
+            "height": 1700,
+            "width": 3200,
+            "x": 0,
+            "y": 0
+          },
+          "name": "jsongraph/jgf-dot: Convert a json graph into a dot file for use with Graphviz and other visualizers - Mozilla Firefox",
+          "percent": 0.166666666666667,
+          "swallows": [
+            {}
+          ],
+          "type": "con"
+        }
+      },
+      {
+        "id": 7,
+        "label": "How to find and change the screen DPI? - Ask Ubuntu - Mozilla Firefox",
+        "metadata": {
+          "border": "none",
+          "current_border_width": 0,
+          "floating": "user_off",
+          "geometry": {
+            "height": 1694,
+            "width": 3188,
+            "x": 0,
+            "y": 0
+          },
+          "name": "How to find and change the screen DPI? - Ask Ubuntu - Mozilla Firefox",
+          "percent": 0.166666666666667,
+          "swallows": [
+            {}
+          ],
+          "type": "con"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 3
+      },
+      {
+        "source": 1,
+        "target": 4
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 1,
+        "target": 6
+      },
+      {
+        "source": 1,
+        "target": 7
+      }
+    ]
+  }
+}
