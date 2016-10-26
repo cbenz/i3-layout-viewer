@@ -11,3 +11,5 @@ So the full chain is:
 ```
 i3-save-tree --workspace 1 | i3-layout-to-dot | xdot -
 ```
+
+This tool was inspired by [this video](https://www.youtube.com/watch?v=AWA8Pl57UBY).
