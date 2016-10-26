@@ -1,4 +1,6 @@
-# i3 layout tree to JSON Graph Format
+# i3 layout viewer
+
+![example layout](./examples/layout.svg)
 
 The [i3](http://i3wm.org/) allows to [save the layout](http://i3wm.org/docs/layout-saving.html) in a JSON file.
 
