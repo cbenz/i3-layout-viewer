@@ -2,6 +2,10 @@
   "name": "i3-layout-tree-to-jgf",
   "version": "0.0.1",
   "description": " Visualize the layout tree of a workspace in i3 window manager",
+  "bugs": {
+    "url": "https://github.com/cbenz/i3-layout-viewer/issues"
+  },
+  "homepage": "https://github.com/cbenz/i3-layout-viewer",
   "main": "src/index.js",
   "bin": {
     "i3-layout-to-dot": "bin/cli.js"
