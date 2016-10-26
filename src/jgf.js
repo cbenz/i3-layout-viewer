@@ -27,8 +27,7 @@ function traverse (node, parentId, accu) {
   }
 }
 
-
-function convert (node) {
+function toJgf (node) {
   const nodes = []
   const edges = []
   traverse(node, null, {nodes, edges, nextId: 0})
@@ -42,7 +41,4 @@ function convert (node) {
   return graph
 }
 
-
-module.exports = {
-  convert
-}
+module.exports = toJgf
