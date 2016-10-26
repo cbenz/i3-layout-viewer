@@ -1,6 +1,6 @@
 # i3 layout viewer
 
-The [i3](http://i3wm.org/) allows to [save the layout](http://i3wm.org/docs/layout-saving.html) in a JSON file.
+The [i3](http://i3wm.org/) window manager allows to [save the layout](http://i3wm.org/docs/layout-saving.html) in a JSON file.
 
 This tool converts this JSON file to a [DOT](http://www.graphviz.org/content/dot-language) file (see [GraphViz](http://www.graphviz.org/) tool).
 
