@@ -9,7 +9,7 @@ To actually visualize the graph, you'll need a viewer like [xdot](https://github
 So the full chain is:
 
 ```
-i3-save-tree --workspace 1 | i3-layout-to-dot | xdot -
+i3-save-tree | i3-layout-to-dot | xdot -
 ```
 
 This tool was inspired by [this video](https://www.youtube.com/watch?v=AWA8Pl57UBY).
