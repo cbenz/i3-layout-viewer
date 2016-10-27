@@ -2,6 +2,10 @@
   "name": "i3-layout-viewer",
   "version": "0.0.1",
   "description": " Visualize the layout tree of a workspace in i3 window manager",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbenz/i3-layout-viewer.git"
+  },
   "bugs": {
     "url": "https://github.com/cbenz/i3-layout-viewer/issues"
   },
