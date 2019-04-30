@@ -23,7 +23,9 @@ function traverse (node, parentId, accu) {
       label: node.name,
       metadata: node
     })
-    accu.edges.push({source: parentId, target: id})
+    if (parentId !== null) {
+      accu.edges.push({source: parentId, target: id})
+    }
   }
 }
 
