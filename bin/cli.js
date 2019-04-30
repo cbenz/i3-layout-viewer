@@ -9,6 +9,7 @@ const toJgf = require('../src/jgf')
 read(process.argv[2], (err, buffer) => {
   if (err) throw err
   const jsons = buffer.toString()
+    // 'node' seems to be a magical keyword in this context that causes error, so rename all name: node to name: $node
     .replace(/"name": "node"/gi, '"name": "$node"')
     .split('\n\n')
     // exclude last element, which will be the empty newline at the end of i3-save-tree
