@@ -23,6 +23,8 @@ function traverse (node, parentId, accu) {
       label: node.name,
       metadata: node
     })
+    // nodes can also be orphans!
+    // if that is the case, dont add edge
     if (parentId !== null) {
       accu.edges.push({source: parentId, target: id})
     }
