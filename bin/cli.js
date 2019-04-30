@@ -21,6 +21,7 @@ read(process.argv[2], (err, buffer) => {
   }
   const graph = toJgf(
     nodes.length > 1 ?
+    // if we have 2 separate jsons, like mentioned above, create a virtual top-node and use the separate jsons as nodes
     {layout: 'root', nodes} :
     nodes[0]
   )
