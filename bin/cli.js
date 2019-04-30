@@ -11,6 +11,7 @@ read(process.argv[2], (err, buffer) => {
   const jsons = buffer.toString()
     // 'node' seems to be a magical keyword in this context that causes error, so rename all name: node to name: $node
     .replace(/"name": "node"/gi, '"name": "$node"')
+    // i3-save-tree sometimes outputs 2 separate jsons with empty newline as separator, we need to split, cause its not valid json
     .split('\n\n')
     // exclude last element, which will be the empty newline at the end of i3-save-tree
     .slice(0, -1)
